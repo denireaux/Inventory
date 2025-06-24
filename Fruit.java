@@ -9,22 +9,29 @@ public class Fruit {
     private final boolean hasSeeds = true;
 
     String color;
-    float weight;
-    int salesPrice;
-    int costPrice;
+    int weightInPounds;
+    int costPerPound;
+
 
     // Constructor
     protected Fruit(
         String name, 
         String color, 
-        float weight, 
-        int salesPrice, 
-        int costPrice
+        int weightInPounds, 
+        int costPerPound
         ) {
         this.name = name;
         this.color = color;
-        this.weight = weight;
-        this.salesPrice = salesPrice;
-        this.costPrice = costPrice;
+        this.weightInPounds = weightInPounds;
+        this.costPerPound = costPerPound;
+    }
+
+    // Considering we have a weightInPounds,
+    // and a costPerPound, we probably need,
+    // a class method that will take whatever,
+    // values those are, and determine a,
+    // sellingPrice
+    public int sellingPrice(int weightInPound, int costPerPound) {
+        return 0;
     }
 }
