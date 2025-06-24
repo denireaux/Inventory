@@ -31,7 +31,7 @@ public class Fruit {
     // a class method that will take whatever,
     // values those are, and determine a,
     // sellingPrice
-    public int sellingPrice(int weightInPound, int costPerPound) {
+    public int sellingPrice(int weightInPounds, int costPerPound) {
         return 0;
     }
 }
