@@ -1,10 +1,16 @@
 package Fruits;
 
-class Pear extends Fruit {
+/**
+ * Represents a Pear, typically not sour.
+ */
+public class Pear extends Fruit {
 
     public Pear(String name, String color, int weightInPounds, int costPerPound) {
-        super(name, color, weightInPounds, costPerPound);
+        super(name, color, weightInPounds, costPerPound, false);
     }
 
-    private boolean isSour = false;
+    @Override
+    public String toString() {
+        return "Pear: " + super.toString();
+    }
 }

@@ -1,10 +1,17 @@
 package Fruits;
 
+/**
+ * Represents an Apple, a specific type of Fruit.
+ * Apples are not sour by default.
+ */
 public class Apple extends Fruit {
-    
+
     public Apple(String name, String color, int weightInPounds, int costPerPound) {
-        super(name, color, weightInPounds, costPerPound);
+        super(name, color, weightInPounds, costPerPound, false);
     }
 
-    private boolean isSour = false;
+    @Override
+    public String toString() {
+        return "Apple: " + super.toString();
+    }
 }

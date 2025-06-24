@@ -1,10 +1,16 @@
 package Fruits;
 
-class Lemon extends Fruit {
-    
-    public Lemon(String name, String color, int weightInPounds, int costPerPound, boolean isSour) {
-        super(name, color, weightInPounds, costPerPound);
+/**
+ * Represents a Lemon, which is typically sour.
+ */
+public class Lemon extends Fruit {
+
+    public Lemon(String name, String color, int weightInPounds, int costPerPound) {
+        super(name, color, weightInPounds, costPerPound, true);
     }
 
-    private boolean isSour = true;
+    @Override
+    public String toString() {
+        return "Lemon: " + super.toString();
+    }
 }
