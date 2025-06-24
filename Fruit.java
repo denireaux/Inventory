@@ -3,7 +3,7 @@
 * This is an abstract class for fruit to be inherit by specific fruits
 * @author Susan S. Bai, D'Angelo L. DeNiro
 */
-public class Fruit {
+public abstract class Fruit {
 
     protected String name;
     private final boolean hasSeeds = true;
@@ -11,6 +11,7 @@ public class Fruit {
     String color;
     int weightInPounds;
     int costPerPound;
+    boolean isSour;
 
 
     // Constructor
@@ -24,10 +25,11 @@ public class Fruit {
         this.color = color;
         this.weightInPounds = weightInPounds;
         this.costPerPound = costPerPound;
+        this.isSour = isSour;
     }
 
-    public int sellingPrice(int weightInPounds, int costPerPound) {
-        int sellingPrice = weightInPounds * costPerPound;
+    public int sellingPrice() {
+        int sellingPrice = this.weightInPounds * this.costPerPound;
         return sellingPrice;
     }
 }
