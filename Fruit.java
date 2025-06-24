@@ -1,7 +1,7 @@
 
 /**
 * This is an abstract class for fruit to be inherit by specific fruits
-* @author         Susan S. Bai, D'Angelo L. DeNiro
+* @author Susan S. Bai, D'Angelo L. DeNiro
 */
 public class Fruit {
 
@@ -27,5 +27,4 @@ public class Fruit {
         this.salesPrice = salesPrice;
         this.costPrice = costPrice;
     }
-    
 }
