@@ -1,3 +1,4 @@
+package Fruits;
 
 /**
 * This is an abstract class for fruit to be inherit by specific fruits
