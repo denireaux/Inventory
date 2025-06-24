@@ -26,12 +26,8 @@ public class Fruit {
         this.costPerPound = costPerPound;
     }
 
-    // Considering we have a weightInPounds,
-    // and a costPerPound, we probably need,
-    // a class method that will take whatever,
-    // values those are, and determine a,
-    // sellingPrice
     public int sellingPrice(int weightInPounds, int costPerPound) {
-        return 0;
+        int sellingPrice = weightInPounds * costPerPound;
+        return sellingPrice;
     }
 }
