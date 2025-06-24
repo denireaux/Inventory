@@ -6,5 +6,5 @@ public class Apple extends Fruit {
         super(name, color, weightInPounds, costPerPound);
     }
 
-    boolean isSour = false;
+    private boolean isSour = false;
 }

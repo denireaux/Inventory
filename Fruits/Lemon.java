@@ -6,5 +6,5 @@ class Lemon extends Fruit {
         super(name, color, weightInPounds, costPerPound);
     }
 
-    boolean isSour = true;
+    private boolean isSour = true;
 }

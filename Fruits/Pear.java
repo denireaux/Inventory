@@ -6,5 +6,5 @@ class Pear extends Fruit {
         super(name, color, weightInPounds, costPerPound);
     }
 
-    boolean isSour = false;
+    private boolean isSour = false;
 }
