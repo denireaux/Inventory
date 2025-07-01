@@ -14,4 +14,13 @@ public class Apple extends Fruit {
     public String toString() {
         return "Apple: " + super.toString();
     }
+    
+    public static void main(String[] args) {
+        Apple ourApple = new Apple("Apple", "Yellow", 2, 1);
+        String ourAppleInfo = ourApple.toString();
+
+        System.out.println(ourAppleInfo);
+    }
+
+    
 }
