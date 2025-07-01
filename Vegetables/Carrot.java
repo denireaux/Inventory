@@ -23,3 +23,12 @@ public class Carrot extends Vegetable {
     }
     
 }
+
+// Several Issues:
+// 1. Potato constructor implemented
+// 2. Main method in Carrot class
+// 3. Formatting, 
+//      a. Every class should have one new-line in between package declaration and class declaration
+//      b. In between class methods/constructors/everything really, there should be one new line
+//      c. Every class should have one new-line at the very bottom of the class (one extra line)
+//      d. Please remove this entire comment before pushing
