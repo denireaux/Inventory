@@ -21,6 +21,5 @@ public class Apple extends Fruit {
 
         System.out.println(ourAppleInfo);
     }
-
     
 }

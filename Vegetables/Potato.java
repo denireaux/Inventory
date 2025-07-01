@@ -10,4 +10,5 @@ public class Potato extends Vegetable {
     public String toString() {
         return "Potato: " + super.toString();
     }    
+    
 }
