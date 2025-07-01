@@ -15,7 +15,7 @@ public abstract class Vegetable {
     private final boolean hasSeeds = false;
     
     // Constructor
-    protected Vegetable(String name, String color, int weightInPounds, in costPerPound, boolean isSour, boolean isLeafy) {
+    protected Vegetable(String name, String color, int weightInPounds, int costPerPound, boolean isLeafy) {
         this.name = name;
         this.color = color;
         this.weightInPounds = weightInPounds;
